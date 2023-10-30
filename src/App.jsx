@@ -7,7 +7,7 @@ import { generatePassword } from "./lib/password";
 export function App() {
   const [password, setPassword] = useState(
     generatePassword({
-      size: 15,
+      size: 10,
       numbers: "on",
       uppercase: "on",
       lowercase: "on",
